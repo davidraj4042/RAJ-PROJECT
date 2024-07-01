@@ -59,11 +59,7 @@ My Facebook account
     - the handler will run `when the user has a new event` type `event` (new user join, user leave chat box, change admin box,...)
 		```javascript
 		// example:
-		global.GoatBot.onEvent.set(msg.messageID, {
-			messageID: msg.messageID,
-			commandName,
-			// ... and more
-		});
+		
 		```
 		- it will loop through all `onEvent` and get the command determined by the key `commandName` and execute the `onEvent` in that command.
 		- if it return a `function` or `async function` then it will call the function and `log` information to the console.
@@ -86,12 +82,6 @@ Tutorial has been uploaded on YouTube
 ## 🛠️ **How to create new commands**
 - See [here](https://github.com/david-raj404/RAJ-GOAT)
 
-## 💭 **Support**
-If you have major coding issues with this bot, please join and ask for help.
-- https://discord.com/invite/DbyGwmkpVY (recommended)
-- https://www.facebook.com/groups/goatbot
-- https://m.me/j/Abbq0B-nmkGJUl2C
-- ~~https://t.me/gatbottt~~ (no longer supported)
 - ***Please do not inbox me, I do not respond to private messages, any questions please join the chat group for answers. ThankThanks!***
 
 ## 📚 **Support Languages in source code**
